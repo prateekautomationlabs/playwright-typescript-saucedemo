@@ -3,7 +3,7 @@ import { Test_DATA } from './fixtures/testData';
 import {LoginPage} from './pages/loginPage';
 import {InventoryPage} from './pages/inventoryPage';
 
-test('has title', async ({ page }) => {
+test('validate the list is not empty', async ({ page }) => {
 
   const loginPage = new LoginPage(page);
   const inventoryPage = new InventoryPage(page);
