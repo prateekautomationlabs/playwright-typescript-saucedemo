@@ -37,7 +37,7 @@ export default defineConfig({
       slowMo:1000
     },
      testIdAttribute: 'data-test',
-     storageState:'auth.json'
+     storageState: process.env.CI ? undefined : 'auth.json'
   },
 
   /* Configure projects for major browsers */
