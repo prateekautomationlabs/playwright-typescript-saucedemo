@@ -12,8 +12,8 @@ test('has title', async ({ page }) => {
   await loginPage.login(Test_DATA.CREDENTIALS.USERNAME, Test_DATA.CREDENTIALS.PASSWORD);
 
   await inventoryPage.verifyInventoryListVisible();
-  //await inventoryPage.verifyItemExists(Test_DATA.ITEMS.boltTee);
-  await inventoryPage.verifyItemExists('xyz');
+  await inventoryPage.verifyItemExists(Test_DATA.ITEMS.boltTee);
+
 
 
 });
