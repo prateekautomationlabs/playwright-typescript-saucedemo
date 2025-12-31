@@ -15,4 +15,8 @@ test('validate the list is not empty', async ({ page }) => {
   
   const count = await inventoryPage.getInventoryItemCount();
   expect(count).toBeGreaterThan(0);
+  
 });
+
+
+

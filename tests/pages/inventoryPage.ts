@@ -9,6 +9,7 @@ export class InventoryPage extends BasePage{
 
     async verifyInventoryListVisible(){
         await expect (this.inventoryList()).toBeVisible();
+        
     }
 
     async getInventoryItemCount():Promise<number>{
