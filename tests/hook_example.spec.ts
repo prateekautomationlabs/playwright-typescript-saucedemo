@@ -12,7 +12,7 @@ test('Test1',()=>{
     console.log('Running Test 1')
 });
 
-test('Test2',()=>{
+test('Test2 ',()=>{
     console.log('Running Test 2')
 });
 
