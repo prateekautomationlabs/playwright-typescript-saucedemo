@@ -16,6 +16,10 @@ test('Test2 ',()=>{
     console.log('Running Test 2 ')
 });
 
+test('Test3 ',()=>{
+    console.log('Running Test 3 ')
+});
+
 test.afterEach(async()=>{
     console.log("Test finished afterEach executed...")
 });
