@@ -9,7 +9,7 @@ test.beforeEach(async()=>{
 });
 
 test('Test1',()=>{
-    console.log('Running Test 1')
+    console.log('Running Test 1 ')
 });
 
 test('Test2 ',()=>{
