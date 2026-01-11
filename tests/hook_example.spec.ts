@@ -13,7 +13,7 @@ test('Test1',()=>{
 });
 
 test('Test2 ',()=>{
-    console.log('Running Test 2')
+    console.log('Running Test 2 ')
 });
 
 test.afterEach(async()=>{
