@@ -5,7 +5,7 @@ test.beforeAll(async()=>{
 });
 
 test.beforeEach(async()=>{
-    console.log("Running before each test...")
+    console.log("..Running before each test...")
 });
 
 test('Test1',()=>{
