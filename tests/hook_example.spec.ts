@@ -24,6 +24,10 @@ test('Test4 ',()=>{
     console.log('Running Test 4 to validate checkout page  ')
 });
 
+test('Test5 ',()=>{
+    console.log('Running Test 5 to validate checkout page  ')
+});
+
 test.afterEach(async()=>{
     console.log("Test finished afterEach executed...")
 });
