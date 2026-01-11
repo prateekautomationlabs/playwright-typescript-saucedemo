@@ -9,11 +9,19 @@ test.beforeEach(async()=>{
 });
 
 test('Test1',()=>{
-    console.log('Running Test 1')
+    console.log('Running Test 1 ')
 });
 
 test('Test2 ',()=>{
-    console.log('Running Test 2')
+    console.log('Running Test 2 ')
+});
+
+test('Test3 ',()=>{
+    console.log('Running Test 3  ')
+});
+
+test('Test4 ',()=>{
+    console.log('Running Test 4 to validate checkout page  ')
 });
 
 test.afterEach(async()=>{
